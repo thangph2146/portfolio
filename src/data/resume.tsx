@@ -2,36 +2,47 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
+  name: "PHẠM-HOÀNG-THẮNG",
   initials: "DV",
   url: "https://dillion.io",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Facebook and Instagram and Zalo.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "At the end of 2024, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
   avatarUrl: "/me.png",
   skills: [
     "React",
+    "React.JS",
     "Next.js",
     "Typescript",
-    "Node.js",
-    "Python",
-    "Go",
+    "Redux",
+    "TailwindCSS",
+    "Shadcn UI",
     "Postgres",
     "Docker",
-    "Kubernetes",
-    "Java",
-    "C++",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Tanstack Query",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "React Query",
+    "React Router",
+    "React Hook Form",
+    "React Toastify",
+    "Axios",
+    "React Icons",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "thang.ph2146@gmail.com",
+    tel: "+84378377099",
     social: {
       GitHub: {
         name: "GitHub",
@@ -72,77 +83,97 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
-      badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      company: "AltaSoftware",
+      href: "https://altasoftware.vn/",
+      badges: ["Frontend", "ReactJS", "Typescript", "HTML/CSS/Javascript"],
+      location: "Ho Chi Minh City, Vietnam",
+      title: "Software Engineer",
+      logoUrl: "https://altasoftware.vn/wp-content/uploads/sites/3/2020/05/Logo-Alta-Software_blackBG.png",
+      start: "Jan 2021",
+      end: "Jan 2022",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        `- Create component layouts from figma \n
+- Connect components to build a complete website \n
+- Ensure accurate display of data returned from the server \n
+- Receive editing tasks from QC and debug the website \n
+- Carry out project implementation and check the operating process \n
+- Technologies used: Visual studio code, ReactJS, HTML/CSS/Javascript, Typescript, ....`,
     },
     {
-      company: "Shopify",
-      badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
+      company: "AppsCyclone",
+      badges: ["Frontend", "Shopify", "ReactJS", "Typescript", "HTML/CSS/Javascript"],
+      href: "https://appscyclone.com/",
+      location: "Ho Chi Minh City, Vietnam",
       title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
+      logoUrl: "https://avatars.githubusercontent.com/u/15098600?s=200&v=4",
+      start: "Jan 2022",
+      end: "Jan 2023",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        `Projects:
+- Support + CMS ProMap Store Locator - Shopify: https://apps.shopify.com/store-locator-4\n
+- Support Amai Local Pickup & Delivery: https://apps.shopify.com/store-pickup-3\n
+Job details:
+- Support foreign customers when using apps integrated with Shopify from the company.\n
+- Carry out bug xes and installation instructions for customers when there are problems installing apps.\n
+- Create component layouts from gma designs\n
+- Combine components to build a complete website\n
+- Receive editing tasks from QC and debug the website\n
+- Deploy the project and check the operation process\n
+Technologies used: Shopify Partner, Visual studio code, ReactJS, HTML/CSS/Javascript, Typescript, ....`,
     },
     {
-      company: "Nvidia",
-      href: "https://nvidia.com/",
-      badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
+      company: "Freelancer",
+      href: "https://www.roboki.vn/",
+      badges: ["Full Stack", "AI Integration", "E-commerce", "ReactJS", "Typescript", 
+        "HTML/CSS/Javascript", "Next.js", "TailwindCSS", "Redux Toolkit", "React Query", "RESTful APIs", "Lazy Loading", 
+        "SSR/SSG", "Git", "Vercel", "AWS", "Supabase"],
+      location: "Ho Chi Minh City, Vietnam",
+      title: "Senior Frontend Developer",
+      logoUrl: "",
+      start: "Jan 2024",
+      end: "Jan 2025",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-    },
-    {
-      company: "Splunk",
-      href: "https://splunk.com",
-      badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    },
-    {
-      company: "Lime",
-      href: "https://li.me/",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-    },
-    {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
-      badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
-      description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
-    },
+        `Key Achievements:
+    - 🎯 Successfully delivered 6 major web applications with 100% client satisfaction rate\n
+    - 🚀 Reduced page load times by 40% through performance optimization\n
+    - 💡 Implemented responsive designs that increased mobile user engagement by 55%\n
+    
+    Projects Portfolio:
+    
+    1. Roboki AI Education Platform
+    - Developed an innovative AI-powered teaching platform using Next.js and TypeScript\n
+    - Integrated OpenAI APIs for personalized learning experiences\n
+    - Built robust CMS system handling 1000+ educational resources\n
+    - Live: https://www.roboki.vn/\n
+    - CMS: https://roboki-cms.vercel.app/users\n
+    
+    2. Nintshop E-commerce Platform
+    - Architected a full-featured e-commerce solution with 99.9% uptime\n
+    - Implemented secure payment gateway integration\n
+    - Enhanced user experience resulting in 45% increase in conversion rate\n
+    - Live: https://nintshop-phgroup.vercel.app/\n
+    
+    3. Psychub Counseling Platform
+    - Developed a comprehensive mental health platform ecosystem\n
+    - Built real-time video consultation features\n
+    - Implemented HIPAA-compliant data security measures\n
+    - Platform: https://psychub-web.vercel.app/\n
+    - Landing: https://psychub-landing-page.vercel.app/\n
+    - Admin: https://psychub-project-cms.vercel.app\n
+    
+    Technical Environment:
+    - Frontend: React.js, Next.js, TypeScript, TailwindCSS\n
+    - State Management: Redux Toolkit, React Query\n
+    - Backend Integration: RESTful APIs, GraphQL\n
+    - Performance: Lazy Loading, Code Splitting, SSR/SSG\n
+    - Tools: Git, Docker, Vercel, AWS\n
+    
+    Impact:
+    - Averaged 95% client satisfaction score across all projects\n
+    - Delivered all projects on time and within budget\n
+    - Maintained <1s initial page load time across all applications\n
+    - Achieved 100% responsive design compatibility across devices`,
+    }
   ],
   education: [
     {
@@ -212,8 +243,7 @@ export const DATA = {
       href: "https://magicui.design",
       dates: "June 2023 - Present",
       active: true,
-      description:
-        "Designed, developed and sold animated UI components for developers.",
+      description: "A collection of beautiful and reusable UI components built with TailwindCSS and React.",
       technologies: [
         "Next.js",
         "Typescript",
