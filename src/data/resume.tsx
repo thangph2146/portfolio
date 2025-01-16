@@ -43,6 +43,9 @@ I am a dedicated and hardworking individual, always eager to learn and grow. I a
     "Vercel",
     "AWS",
     "Supabase",
+    "ChatGPT",
+    "OpenAI",
+    "EventStream"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
