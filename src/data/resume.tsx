@@ -4,9 +4,9 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "PHẠM-HOÀNG-THẮNG",
   initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  url: "https://portfolio-pham-hoang-thang.vercel.app/",
+  location: "Ho Chi Minh City, Vietnam",
+  locationLink: "https://www.google.com/maps/place/Ho+Chi+Minh+City",
   description:
     "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Facebook and Instagram and Zalo.",
   summary:
