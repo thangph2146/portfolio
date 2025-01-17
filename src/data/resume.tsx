@@ -320,6 +320,33 @@ Giải pháp toàn diện cho kinh doanh online`,
       video: "",
     },
     {
+      title: "Roboki AI Education Platform CMS",
+      href: "https://roboki-cms.vercel.app",
+      dates: "Jan 2024 - Present",
+      active: true,
+      description:
+        "Roboki AI Education Platform CMS",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "TailwindCSS",
+        "ChatGPT",
+        "OpenAI",
+        "ReactJS",
+        "HTML/CSS/Javascript",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://roboki-cms.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/roboki-cms.png",
+      video: "",
+    },
+    {
       title: "Psychub Counseling Platform Landing Page",
       href: "https://psychub-landing-page.vercel.app/",
       dates: "Jan 2024 - Present",
